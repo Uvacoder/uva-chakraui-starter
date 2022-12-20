@@ -36,7 +36,7 @@ export default function Home() {
             <Text fontSize="lg">Discover and deploy boilerplate example Next.js projects.</Text>
           </Box>
 
-          <Box as="a" href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" p="6" m="4" borderWidth="1px" rounded="lg" flexBasis={['auto', '45%']}>
+          <Box as="a" href="https://vercel.com/import?filter=next.js" p="6" m="4" borderWidth="1px" rounded="lg" flexBasis={['auto', '45%']}>
             <Heading as="h3" size="lg" mb="2">Deploy &rarr;</Heading>
             <Text fontSize="lg">Instantly deploy your Next.js site to a public URL with Vercel.</Text>
           </Box>
@@ -50,7 +50,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://vercel.com"
           target="_blank"
           rel="noopener noreferrer"
         >
